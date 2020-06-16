@@ -15,11 +15,19 @@
 //
 //链接：https ://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof
 
-#include <iostream>
+#include "all_header.h"
 
 using namespace std;
 
+class Solution {
+public:
+    int findRepeatNumber(vector<int>& nums) {
+
+    }
+};
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    vector<int> test = Utils::toVector("[2, 3, 1, 0, 2, 5, 3]");
+    return 0;
 }

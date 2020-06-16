@@ -19,10 +19,24 @@
     <Filter Include="源文件\CodingInterview\Q3%28找出数组中重复的数字%29">
       <UniqueIdentifier>{042f83e0-bef4-4aa6-aaaa-12a5d7e3b0a0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\CodingInterview\Utils">
+      <UniqueIdentifier>{ac99694a-75d8-4f6d-a6f5-c7db2c74f6f7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LeetCode.cpp">
+    <ClInclude Include="all_header.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Answer1.cpp">
       <Filter>源文件\CodingInterview\Q3%28找出数组中重复的数字%29</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>源文件\CodingInterview\Utils</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
